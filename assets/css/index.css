@@ -1,180 +1,186 @@
+body {
+  margin: 0;
+  max-width: 320px;
+}
 
-  body {
-    margin: 0;
-    max-width: 320px;
-  }
+#Costume_Shop {
+  max-width: 320px;
+  text-align: center;
+  font-family: PT Sans Narrow;
+  margin-top: 1.5em;
+  font-size: 20px;
+}
 
-  #Costume_Shop {
-    max-width: 320px;
-    text-align: center;
-    font-family: PT Sans Narrow;
-    margin-top: 1.5em;
-    font-size: 20px;
-  }
+#About {
+  display: none;
+}
 
-  #About {
-    display: none;
-  }
+#Contact {
+  display: none;
+}
 
-  #Contact {
-    display: none;
-  }
+#splash {
+  max-width: 320px;
+}
 
-  #splash {
-    max-width: 320px;
-  }
+#desktop-splash {
+  display: none;
+}
 
-  #desktop-splash {
-    display:  none;
-  }
+.Cat_Hero {
+  max-width: 320px;
+  height: auto;
+  position: relative;
+}
 
-  .Cat_Hero {
-    max-width: 320px;
-    height: auto;
-    position: relative;
-  }
-  #hero_cat {
-    position: absolute;
-    margin-top: -340px;
-    height: 100%;
-    margin-left: 41px;
-    z-index: 2;
-  }
+#hero_cat {
+  position: absolute;
+  margin-top: -340px;
+  height: 100%;
+  margin-left: 41px;
+  z-index: 2;
+}
 
-  #top {
-    position: absolute;
-    z-index: 1;
-    max-width: 320px;
-    margin-top: 20px;
-    margin-left: 5px;
-    color: white;
-    font-family: PT Sans Narrow;
-  }
+#top {
+  position: absolute;
+  z-index: 1;
+  max-width: 320px;
+  margin-top: 20px;
+  margin-left: 5px;
+  color: white;
+  font-family: PT Sans Narrow;
+}
 
-  #middle {
-    position: absolute;
-    max-width: 320px;
-    z-index: 1;
-    margin-left: 18px;
-    margin-top: 18px;
-    font-size: 30px;
-    color: white;
-    font-family: PT Sans Narrow;
-  }
+#middle {
+  position: absolute;
+  max-width: 320px;
+  z-index: 1;
+  margin-left: 18px;
+  margin-top: 18px;
+  font-size: 30px;
+  color: white;
+  font-family: PT Sans Narrow;
+}
 
-  #bottom {
-    position: absolute;
-    max-width: 320px;
-    z-index: 1;
-    margin-top: 74px;
-    margin-left:219px;
-    color: white;
-    font-family: PT Sans Narrow;
-  }
+#bottom {
+  position: absolute;
+  max-width: 320px;
+  z-index: 1;
+  margin-top: 74px;
+  margin-left: 219px;
+  color: white;
+  font-family: PT Sans Narrow;
+}
 
-  .title {
-    color: black;
-    font-family: PT Sans Narrow;
-    font-weight: 800;
-    text-align: center;
-    font-size: 1.5em;
-    max-width: 320px;
-  }
-  .intro {
-    max-width: 320px;
-    padding: 20px;
-  }
+.title {
+  color: black;
+  font-family: PT Sans Narrow;
+  font-weight: 800;
+  text-align: center;
+  font-size: 1.5em;
+  max-width: 320px;
+}
 
-  .intro p {
-    font-family: PT Sans Narrow;
-    width: 100%;
-    margin-left: 1px;
-    max-width: 320px;
-    margin-top: -25px;
-  }
+.intro {
+  max-width: 320px;
+  padding: 20px;
+}
 
-  .About {
-    padding: 20px;
-    background-color: #eeeeee;
-  }
+.intro p {
+  font-family: PT Sans Narrow;
+  width: 100%;
+  margin-left: 1px;
+  max-width: 320px;
+  margin-top: -25px;
+}
 
-  .About p {
-    font-family: PT Sans Narrow;
-    text-align: : center;
-    width: 100%;
-    margin-left: 1px;
-  }
+.About {
+  padding: 20px;
+  background-color: #eeeeee;
+}
 
-  #cool_cat {
-    display: none;
-  }
+.About p {
+  font-family: PT Sans Narrow;
+  text-align: : center;
+  width: 100%;
+  margin-left: 1px;
+}
 
-  #hula_cat {
-    display:none;
-  }
+#cool_cat {
+  display: none;
+}
 
-  #sassy_cat {
-    max-width: 320px;
-    position: center;
-    border-radius: 180px;
-    margin: 37px;
-  }
+#hula_cat {
+  display: none;
+}
 
-  #gray-container {
-    background-color: #eeeeee;
-    max-width: 320px;
-  }
+#sassy_cat {
+  max-width: 320px;
+  position: center;
+  border-radius: 180px;
+  margin: 37px;
+}
 
-  #In_Touch {
-    display:none;
-  }
-  #map {
-    max-width: 320px;
-  }
-  h3 {
-    font-weight: 700;
-    font-family: PT Sans Narrow;
-  }
-  h4 {
-    color: #f26522;
-    font-family: PT Sans Narrow;
-  }
-  .hours {
-    font-family: PT Sans Narrow;
-    margin-left: 20px;
-  }
+#gray-container {
+  background-color: #eeeeee;
+  max-width: 320px;
+}
 
-  .contact_info {
-    font-family: PT Sans Narrow;
-    margin-left: 20px;
-  }
+#In_Touch {
+  display: none;
+}
 
-  .orange {
-    color: #f26522;
-    font-weight: 700;
-    margin-left: 62px;
-  }
-  .footer {
-    background-color: #45958B;
-    max-width: 320px;
-    height: 65px;
-  }
+#map {
+  max-width: 320px;
+}
 
-  #top_orange {
-    margin-top: -21px;
-  }
+h3 {
+  font-weight: 700;
+  font-family: PT Sans Narrow;
+}
 
-  #bottom_orange {
-    margin-top: 5px;
-    padding-bottom: 18px;
-  }
-  .footer_text {
-    color: white;
-    font-family: PT Sans Narrow;
-    margin-left: 100px;
-    padding-top: 20px;
-  }
+h4 {
+  color: #f26522;
+  font-family: PT Sans Narrow;
+}
 
+.hours {
+  font-family: PT Sans Narrow;
+  margin-left: 20px;
+}
+
+.contact_info {
+  font-family: PT Sans Narrow;
+  margin-left: 20px;
+}
+
+.orange {
+  color: #f26522;
+  font-weight: 700;
+  margin-left: 62px;
+}
+
+.footer {
+  background-color: #45958B;
+  max-width: 320px;
+  height: 65px;
+}
+
+#top_orange {
+  margin-top: -21px;
+}
+
+#bottom_orange {
+  margin-top: 5px;
+  padding-bottom: 18px;
+}
+
+.footer_text {
+  color: white;
+  font-family: PT Sans Narrow;
+  margin-left: 100px;
+  padding-top: 20px;
+}
 
 /* On devices wider than 660px */
 @media(min-width: 660px) {
@@ -193,11 +199,11 @@
 
   #About {
     display: flex;
-    }
+  }
 
   #Contact {
     display: flex;
-    }
+  }
 
   #splash {
     display: none;
@@ -209,53 +215,54 @@
   }
 
   #hero_cat {
-      position: absolute;
-      margin-top: -559px;
-      height: 100%;
-      margin-left: 116px;
-      z-index: 2;
+    position: absolute;
+    margin-top: -559px;
+    height: 100%;
+    margin-left: 116px;
+    z-index: 2;
   }
-    #top h2 {
-      max-width: 660px;
-      margin-top: 89px;
-      margin-left: 62px;
-    }
 
-    #middle {
-      font-size: 64px;
-      font-style: italic;
-      margin-left: 51px;
-      margin-top: 36px;
-      }
-/* This does not show up in inspect
+  #top h2 {
+    max-width: 660px;
+    margin-top: 89px;
+    margin-left: 62px;
+  }
+
+  #middle {
+    font-size: 64px;
+    font-style: italic;
+    margin-left: 51px;
+    margin-top: 36px;
+  }
+
+  /* This does not show up in inspect
 BUT if I delete it, it breaks it.  WHY!?!?!?!?! */
   #bottom {
-      margin-top: 200px;
-      margin-left: 500px;
-    }
+    margin-top: 200px;
+    margin-left: 500px;
+  }
 
-    .Cat_Hero #bottom h2 {
-      margin-top:8px;
-      margin-left:9px;
-    }
-    .title {
-      max-width: 660px;
-    }
+  .Cat_Hero #bottom h2 {
+    margin-top: 8px;
+    margin-left: 9px;
+  }
 
-    .intro {
-      max-width: 660px;
-    }
+  .title {
+    max-width: 660px;
+  }
 
-    .intro p {
-      max-width: 660px;
-    }
+  .intro {
+    max-width: 660px;
+  }
 
+  .intro p {
+    max-width: 660px;
+  }
 }
 
 /* On devices wider than 940px */
 @media(min-width: 940px) {
-
-  #desktop-splash{
+  #desktop-splash {
     min-width: 940px;
   }
 
@@ -282,14 +289,22 @@ BUT if I delete it, it breaks it.  WHY!?!?!?!?! */
     margin-left: 568px;
   }
 
-  #side_menu {
-    display: flex;
-    align-content: flex-end;
-  }
+.nav {
+  display: flex;
+  flex-direction: row;
+  min-width: 940px;
+}
+
   .title {
     min-width: 940px;
     font-size: 30px;
   }
+
+  .intro {
+    min-width: 940px;
+    justify-content: center;
+  }
+
   .intro p {
     min-width: 940px;
     font-size: 20px;
@@ -305,102 +320,156 @@ BUT if I delete it, it breaks it.  WHY!?!?!?!?! */
     align-content: space-between;
     flex-direction: row;
     justify-content: center;
-}
-.cat_container {
-  display: flex;
-  align-content: space-between;
-}
-#cool_cat {
-  display: flex;
-  max-width: 940px;
-  position: center;
-  border-radius: 180px;
-  margin: 37px;
-}
+  }
 
-#hula_cat {
+  .cat_container {
+    display: flex;
+    align-content: space-between;
+  }
+
+  #cool_cat {
+    display: flex;
+    max-width: 940px;
+    position: center;
+    border-radius: 180px;
+    margin: 37px;
+  }
+
+  #hula_cat {
+    display: flex;
+    max-width: 940px;
+    position: center;
+    border-radius: 180px;
+    margin: 37px;
+  }
+
+  h2 {
+    font-family: PT Sans Narrow;
+    color: : #FFFFFF;
+  }
+
+  h3 {
+    font-weight: 700;
+  }
+
+  h4 {
+    text-decoration-color: #f26522;
+  }
+
+  .teal {
+    text-align: center;
+    width: 100%;
+    font-family: PT Sans Narrow;
+    color: #45958B;
+  }
+
+  #gray-container-about {
+    background-color: white;
+    min-width: 940px;
+    display: flex;
+    align-content: center;
+    margin-left: 160px;
+  }
+
+  .About {
+    background-color: #eeeeee;
+    margin: 10;
+  }
+
+  .About div {
+    background-color: #eeeeee;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+  }
+
+  .About p {
+    font-family: PT Sans Narrow;
+    text-align: : center;
+    width: 85%;
+    margin: 20px;
+    padding: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+  }
+
+  #gray-container-contact {
+    background-color: #eeeeee;
+    min-width: 940px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #title {
+    text-align: center;
+  }
+
+  .contact_info {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+  }
+
+  #In_Touch {
+    display: inherit;
+    color: black;
+    justify-content: center;
+    background-color: #eeeeee;
+  }
+
+  #contact_container {
+    display: flex;
+  }
+
+  #address_container {
+    display: flex;
+  }
+
+  #map {
+    min-width: 940px;
+  }
+
+  .hours {
+    background-color: white;
+    width: 300px;
+    height: 200px;
+  }
+
+  #address_container {
+    background-color: white;
+  }
+
+  .contact_info {
+    background_color: white;
+    width: 300px;
+    height: 500px;
+  }
+
+  #contact_container {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #I_Hate_This {
+    display: flex;
+    flex-direction: column;
+  }
+#please_work {
   display: flex;
-  max-width: 940px;
-  position: center;
-  border-radius: 180px;
-  margin: 37px;
+  flex-direction: row;
+  justify-content: center;
 }
+  .footer {
+    display: flex;
+    min-width: 940px;
+    justify-content: center;
+  }
 
-h2 {
-  font-family: PT Sans Narrow;
-  color: : #FFFFFF;
-}
-h3 {
-  font-weight: 700;
-}
-h4 {
-  text-decoration-color: #f26522;
-}
-.teal {
-  text-align: center;
-  width: 100%;
-  font-family: PT Sans Narrow;
-  color: #45958B;
-}
-#gray-container-about {
-  background-color: white;
-  min-width: 940px;
-  display: flex;
-  align-content: center;
-  margin-left: 160px;
-}
-.About div {
-  background-color: #eeeeee;
-  width: 300px;
-  height: 300px;
-  display: flex;
-  flex-direction: column;
-  padding: 3%;
-}
-.About p {
-  font-family: PT Sans Narrow;
-  text-align: : center;
-  width: 85%;
-  margin: 20px;
-  padding: 20px;
-  padding-right: 20px;
-
-}
-#gray-container-contact {
-  background-color: #eeeeee;
-  min-width: 940px;
-}
-
-#title {
-  text-align: center;
-}
-
-
-.contact_info {
-  display: flex;
-  align-content: space-between;
-}
-
-#In_Touch {
-  display: inherit;
-  color: black;
-}
-#contact_container {
-  display: flex;
-  color: white;
-}
-
-#address_container {
-  display: flex;
-  color: white;
-}
-#map {
-  min-width: 940px;
-}
-.footer {
-  min-width: 940px;
-}
-.foot_text {
-  align: center;
-  min-width: 940px;
-}
+  .foot_text {
+    align: center;
+    min-width: 940px;
+  }
